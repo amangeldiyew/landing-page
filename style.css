@@ -1,4 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
 .hero {
-    background-color: #152436;
+    height: 100%;
+    background-color: #3e52c9;
     color: white;
+    }
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    /* border: solid 2px red; */
+}
+
+.header .container {
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+}
+
+.menu a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.hero a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.hero-content .container {
+    display: flex;
+    height: 500px;
+}
+
+.hero-content h1 {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 1.2;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: #e5e7eb;
+    line-height: 1.35;
+}
+
+.hero-left-align {
+    display: flex;
+    flex: 1;
+    /* border: solid 2px #3882f6; */
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto 60px auto 0px;
+    align-items: flex-start;
+    /* border: solid yellow 2px; */
+}
+
+.hero-headline p {
+    margin-top: 16px;
+}
+
+.hero-text .button {
+    margin-top: 70px;
+    display: flex;
+}
+
+.hero-text .button .primary-button {
+    color: #000000;
+    background-color: white;
+    padding: 16px 48px;
+    border-radius: 8px;
+
+}
+
+.hero-text .button .primary-button:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 16px 48px;
+    border-radius: 8px;
+
+}
+
+.hero-text .button .secondary-button {
+    color: white;
+    border: solid 2px white;
+    padding: 16px 48px;
+    border-radius: 8px;
+    margin-left: 20px;
+
+}
+
+.hero-text .button .secondary-button:hover {
+    color: #ffffff80;
+    border: solid 2px #ffffff80;
+    padding: 16px 48px;
+    border-radius: 8px;
+    margin-left: 20px;
+
+}
+
+.placeholder {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    /* border: greenyellow 2px solid; */
+}
+
+.placeholder img {
+    max-width: 90%;
+    border-radius: 10px;
 }
