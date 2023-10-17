@@ -15,7 +15,7 @@ body {
     }
 
 .container {
-    width: 1000px;
+    width: 1260px;
     margin: 0 auto;
     display: flex;
     /* border: solid 2px red; */
@@ -39,8 +39,7 @@ body {
 }
 
 .menu a:hover {
-    color: #ffffff;
-    text-decoration: underline;
+    color: #ffffff50;
 }
 
 ul {
@@ -54,17 +53,18 @@ ul {
 
 .hero-content .container {
     display: flex;
-    height: 500px;
+    height: 700px;
 }
 
 .hero-content h1 {
     font-weight: 300;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 1.2;
 }
 
 .hero-content p {
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 200;
     color: #e5e7eb;
     line-height: 1.35;
 }
@@ -88,7 +88,7 @@ ul {
 }
 
 .hero-text .button {
-    margin-top: 70px;
+    margin-top: 120px;
     display: flex;
 }
 
@@ -137,4 +137,71 @@ ul {
 .placeholder img {
     max-width: 90%;
     border-radius: 10px;
+}
+
+
+
+
+.second-section .container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    font-size: 40px;
+}
+
+.three-boxes {
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+}
+
+.three-boxes h2 {
+    font-size: 30px;
+    padding-bottom: 16px;
+    font-weight: 400;
+}
+
+.box1 p {
+    font-size: 20px;
+    color: #6b665F;
+}
+
+.three-boxes a {
+    color: black;
+    margin-top: 100px;
+}
+
+.box1 {
+    background-color: #f5f0e7;
+    padding: 32px;
+    border-radius: 20px;
+    height: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box1:hover {
+    background-color: #3e52c9;
+    color: white;
+    padding: 32px;
+    border-radius: 20px;
+    height: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box1:hover p {
+    font-size: 20px;
+    color: white;
+}
+
+.box1:hover .learn-more{
+    color: white;
 }
