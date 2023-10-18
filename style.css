@@ -10,7 +10,7 @@ body {
 
 .hero {
     height: 100%;
-    background-color: #3e52c9;
+    background-color: #4565f1;
     color: white;
     }
 
@@ -146,14 +146,21 @@ ul {
     margin-top: 80px;
     display: flex;
     flex-direction: column;
+    gap: 80px;
+    /* border: red solid 2px; */
 }
 
 .text {
     font-size: 40px;
+    font-weight: 400;
+}
+
+.text .brown-text {
+    margin-top: 30px;
 }
 
 .three-boxes {
-    margin-top: 40px;
+    /* margin-top: 80px; */
     display: flex;
     gap: 24px;
 }
@@ -175,7 +182,7 @@ ul {
 }
 
 .box1 {
-    background-color: #f5f0e7;
+    background-color: #f7f1e6;
     padding: 32px;
     border-radius: 20px;
     height: 400px;
@@ -186,7 +193,7 @@ ul {
 }
 
 .box1:hover {
-    background-color: #3e52c9;
+    background-color: #4565f1;
     color: white;
     padding: 32px;
     border-radius: 20px;
@@ -202,6 +209,201 @@ ul {
     color: white;
 }
 
-.box1:hover .learn-more{
+.box1:hover .learn-more a {
     color: white;
+}
+
+
+
+.line {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.second-section .line {
+    width: 100%;
+    height: 2px;
+    background-color: #dedbd5;
+}
+
+.second-section-third-part {
+    display: flex;
+    gap: 60px;
+}
+
+.second-section-third-part .left-section {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.second-section-third-part .right-section h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.second-section-third-part .right-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-section-third-part a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+.second-section-third-part .secondary-button {
+    color: black;
+    border: solid 2px black;
+    padding: 16px 48px;
+    border-radius: 8px;
+    margin-left: 20px;
+
+}
+
+.second-section-third-part .secondary-button:hover {
+    color: #ffffff80;
+    border: solid 2px #ffffff80;
+    padding: 16px 48px;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+
+.second-section-third-part .primary-button {
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    padding: 16px 48px;
+    border-radius: 8px;
+
+}
+
+.second-section-third-part .primary-button:hover {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 16px 48px;
+    border-radius: 8px;
+
+}
+
+.second-section-third-part .button {
+    margin-top: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+.sperator-headline {
+    margin-top: 80px;
+}
+
+
+.third-section {
+    width: 1452px;
+    margin: auto;
+    background-image: linear-gradient(to bottom right, #f6f1e7, #e8dcca);
+    margin-top: 80px;
+    padding: 96px 0px 96px 0px;
+    border-radius: 20px;
+}
+
+.third-section-first-part {
+    display: flex;
+    gap: 60px;
+}
+
+.third-section .container {
+    flex-direction: column;
+    /* border: solid blue 2px; */
+    row-gap: 60px;
+}
+
+.left-section {
+    flex: 1;
+    /* border: solid red 2px; */
+}
+
+.right-section {
+    flex: 1;
+    /* border: solid red 2px; */
+}
+
+.third-section .right-section {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+}
+
+.grid-one {
+    height: auto;
+    width: 50%;
+    padding-right: 32px;
+}
+
+.third-section h2 {
+    font-size: 30px;
+    padding-bottom: 16px;
+    font-weight: 400;
+}
+
+.grid-one p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+
+.brown-text {
+    color: #6b665F;
+}
+
+.third-section .black-text {
+    margin-top: 30px;
+}
+
+.third-section-second-part {
+    display: flex;
+    gap: 60px;
+}
+
+.box2 {
+    flex: 1;
+    height: 100%;
+    background-color: white;
+    border-radius: 20px;
+    /* border: solid red 2px; */
+}
+
+.box-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+    padding: 50px;
+    /* border: solid red 2px; */
+}
+
+.box2 p {
+    font-size: 20px;
+    margin-top: 16px;
+    /* font-weight: 300; */
+}
+
+.box2 h1 {
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.box2 img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.box2 a {
+    font-size: 20px;
+    color: black;
 }
