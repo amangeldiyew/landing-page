@@ -457,6 +457,7 @@ a {
 
 .footer-first-section p {
     font-size: 20px;
+    font-weight: 300;
     color: #ffffff80;
     display: flex;
     flex-direction: column;
@@ -519,7 +520,7 @@ a {
 
 .footer-second-section li {
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 30px;
 }
 
