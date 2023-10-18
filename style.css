@@ -24,13 +24,14 @@ body {
 .header .container {
     justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 80px;
+    /* border: solid red 2px; */
 }
 
-.logo {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: bold;
+.logo img{
+    margin-top: 20px;
+    max-height: 50px;
+    /* border: solid red 2px; */
 }
 
 .menu {
@@ -46,8 +47,11 @@ ul {
     list-style-type: none;
 }
 
-.hero a {
+a {
     text-decoration: none;
+}
+
+.hero a {
     color: #e5e7eb;
 }
 
@@ -142,8 +146,14 @@ ul {
 
 
 
+
+
+
+
+
+
 .second-section .container {
-    margin-top: 80px;
+    margin: 80px auto 80px auto;
     display: flex;
     flex-direction: column;
     gap: 80px;
@@ -406,4 +416,123 @@ ul {
 .box2 a {
     font-size: 20px;
     color: black;
+}
+
+
+
+
+
+
+
+
+
+.footer {
+    background-color: #191919;
+    padding-top: 80px;
+    color: white;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-content {
+    display: flex;
+}
+
+.footer-first-section {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    /* border: solid red 2px; */
+}
+
+.footer .logo {
+    margin-bottom: 90px;
+    /* border: solid yellow 2px; */
+}
+
+.footer-first-section p {
+    font-size: 20px;
+    color: #ffffff80;
+    display: flex;
+    flex-direction: column;
+    /* border: solid green 2px; */
+}
+
+.footer-first-section .button {
+    display: flex;
+    margin-top: 30px;
+    /* border: solid purple 2px; */
+}
+
+.footer a {
+    color: white;
+
+}
+
+.footer .secondary-button {
+    color: white;
+    border: solid 2px white;
+    padding: 16px 48px;
+    border-radius: 8px;
+}
+
+.footer .secondary-button:hover {
+    color: #ffffff80;
+    border: solid 2px #ffffff80;
+    padding: 16px 48px;
+    border-radius: 8px;
+}
+
+.footer-second-section {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 90px;
+    /* border: solid red 2px; */
+}
+
+.footer-menu {
+    flex: 1;
+    margin-left: 80px;
+}
+
+.footer-second-section h3 {
+    font-size: 24px;
+    color: #ffffff80;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.footer-second-section li {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+.footer-end-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    color: #6b665F;
+}
+
+.footer-end .line {
+    margin: 24px auto 24px auto;
+    background-color: #6b665F;
+}
+
+.footer-end-content ul {
+    display: flex;
+    gap: 32px;
 }
