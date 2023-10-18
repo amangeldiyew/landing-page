@@ -25,6 +25,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 80px;
+    padding-top: 20px;
     /* border: solid red 2px; */
 }
 
@@ -37,6 +38,7 @@ body {
 .menu {
     display: flex;
     gap: 24px;
+    font-size: 20px;
 }
 
 .menu a:hover {
@@ -272,8 +274,8 @@ a {
 }
 
 .second-section-third-part .secondary-button:hover {
-    color: #ffffff80;
-    border: solid 2px #ffffff80;
+    color: #4565f1;
+    border: solid 2px #4565f1;
     padding: 16px 48px;
     border-radius: 8px;
     margin-left: 20px;
@@ -289,7 +291,7 @@ a {
 
 .second-section-third-part .primary-button:hover {
     color: white;
-    background-color: rgb(0, 0, 0);
+    background-color: #4565f1;
     padding: 16px 48px;
     border-radius: 8px;
 
@@ -472,6 +474,16 @@ a {
 
 }
 
+.footer .footer-end a {
+    color: #ffffff80;
+
+}
+
+.footer .footer-end a:hover {
+    color: #ffffff;
+
+}
+
 .footer .secondary-button {
     color: white;
     border: solid 2px white;
@@ -509,6 +521,10 @@ a {
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
+}
+
+.footer-second-section a:hover {
+    color: #6b665F;
 }
 
 
